@@ -1,23 +1,44 @@
-import logo from './logo.svg';
-import './App.css';
+// import './App.css';
+// import { Button, ButtonGroup,Checkbox } from "@mui/material";
+// import { Favorite, FavoriteBorder } from "@mui/icons-material";
+// import { Radio } from "@mui/material";
+// import { useState } from "react";
+// import { Slider } from "@mui/material";
+import Nav from "./Nav";
 
 function App() {
+  // const [val,setVal] = useState([30,40])
+  // const updateVal=(e,data)=>{
+  //   setVal(e.target.value)
+  // }
+  // const mark = [
+  //   {
+  //     value:0,
+  //     label: "start"
+  //   },
+  //   {
+  //     value:50,
+  //     label: "middle"
+  //   },
+  //   {
+  //     value:100,
+  //     label: "end"
+  //   }
+  // ]
+ 
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="App" style={{width:"200px",margin:"40px"}}>
+    {/* <Slider
+      defaultValue={0}
+      // marks={mark}
+      step={10}
+      max={100}
+      valueLabelDisplay="auto"
+      value={val}
+      onChange={updateVal}
+    /> */}
+    
+    <Nav/>
     </div>
   );
 }
